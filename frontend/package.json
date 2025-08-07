@@ -1,0 +1,20 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/ui": "^3.3.0",
+    "nuxt": "^3.17.7",
+    "socket.io-client": "^4.8.1",
+    "vue": "^3.5.18",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@iconify-json/material-symbols": "^1.2.30",
+    "@nuxt/icon": "^1.15.0"
+  }
+}
