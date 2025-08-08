@@ -4,7 +4,8 @@
   "type": "module",
   "scripts": {
     "dev": "nuxt dev",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+		"build": "nuxt build"
   },
   "dependencies": {
     "@nuxt/ui": "^3.3.0",
